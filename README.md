@@ -11,12 +11,13 @@ This repository contains a modified version of the HuggingFace robotic arm simul
 
 ## Installation Instructions
 
-1. Uninstall the existing gym-hil package if it's installed:
+1. set up virtual python env at the hgface-hackathon level and enable the virutal env
+2. Uninstall the existing gym-hil package if it's installed:
    ```
    pip uninstall gym-hil
    ```
 
-2. Install the modified gym-hil package from this repository:
+3. Install the modified gym-hil package from this repository:
    ```
    cd gym-hil
    pip install -e .
@@ -24,7 +25,7 @@ This repository contains a modified version of the HuggingFace robotic arm simul
 
 ## Running the Simulator
 
-Run the robotic arm simulator with the following command:
+move to lerobot repo, make sure you are still using the same virutal env and then Run the robotic arm simulator with the following command:
 ```
 pip install -e ".[hilserl]"
 mjpython lerobot/scripts/rl/gym_manipulator.py --config_path config_mac_gui.json
