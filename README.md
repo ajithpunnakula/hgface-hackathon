@@ -26,6 +26,7 @@ This repository contains a modified version of the HuggingFace robotic arm simul
 
 Run the robotic arm simulator with the following command:
 ```
+pip install -e ".[hilserl]"
 mjpython lerobot/scripts/rl/gym_manipulator.py --config_path config_mac_gui.json
 ```
 
