@@ -1,0 +1,13 @@
+{
+  "type": "hil",
+  "name": "franka_sim",
+  "task": "PandaPickCubeKeyboard-v0",
+  "device": "mps",
+  "wrapper": {
+    "gripper_penalty": -0.02,
+    "control_mode": "keyboard_ee",
+    "use_gripper": true,
+    "control_time_s": 3000.0,
+    "fixed_reset_joint_positions": [0, 0.2, 0, -2.4, 0, 2.6, 0.8]
+  }
+}
