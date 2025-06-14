@@ -27,6 +27,7 @@ This repository contains a modified version of the HuggingFace robotic arm simul
 
 move to lerobot repo, make sure you are still using the same virutal env and then Run the robotic arm simulator with the following command:
 ```
+cd lerobot
 pip install -e ".[hilserl]"
 mjpython lerobot/scripts/rl/gym_manipulator.py --config_path config_mac_gui.json
 ```
